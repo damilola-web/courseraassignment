@@ -1,0 +1,117 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Benne',serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #bfbfbf;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand{
+  padding: 25px;
+}
+.navbar-brand h1{
+  font-family: 'Benne', serif;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  background: #bfbfbf;
+}
+#collapsable-nav{
+background-color: #bfbfbf;
+overflow: visible;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #bfbfbf;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+  /***************END OF HEADER********/
+
+/* HOME PAGE */
+h2{
+  color: #000;
+  font-family: 'Benne', serif;
+  font-weight: bold;
+}
+.container{
+  margin-top:50px;
+  width: 100%;
+  overflow: visible;
+
+}
+h3{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.menu-item-categories{
+  height: 350px;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color: grey;
+  color:#000;
+  font-family: 'Benne',serif;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  position: relative;
+}
+.menu-item-categories:hover {
+  box-shadow: 0 1px 5px 1px #000;
+}
+span:{
+ color: #000;
+ position: absolute;
+ bottom: 0px;
+ right: 0px;
+ border: 1px solid black;
+ background-color: #fff;
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  .menu-item-categories{
+    height:700px;
+  }
+
+  
